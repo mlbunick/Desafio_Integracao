@@ -16,18 +16,19 @@ O fluxo da aplicação contempla:
 ## Estrutura
 
 src/
-  database/
-    connection.js
-  repositories/
-    userRepository.js
-  services/
-    randomUserService.js
-    userService.js
-    reportService.js
-  index.js
+├── database/
+│   └── connection.js
+├── repositories/
+│   └── userRepository.js
+├── services/
+│   ├── randomUserService.js
+│   ├── userService.js
+│   └── reportService.js
+└── index.js
 
 reports/
-  *arquivo report*
+└── report_*.json
+
 database.sqlite (criado ao executar)
 
 Camadas:
