@@ -1,4 +1,4 @@
-# Desafio Técnico
+# Desafio Integração
 
 ## 📖 Sobre o Projeto
 
@@ -15,22 +15,7 @@ O fluxo da aplicação contempla:
 
 ## Estrutura
 
-src/
-├── database/
-│   └── connection.js
-├── repositories/
-│   └── userRepository.js
-├── services/
-│   ├── randomUserService.js
-│   ├── userService.js
-│   └── reportService.js
-└── index.js
-
-reports/
-└── report_*.json
-
-database.sqlite (criado ao executar)
-
+<pre> ## Estrutura ``` src/ ├── database/ │ └── connection.js ├── repositories/ │ └── userRepository.js ├── services/ │ ├── randomUserService.js │ ├── userService.js │ └── reportService.js └── index.js reports/ └── report_*.json database.sqlite (criado ao executar) ``` ### Camadas - Service → Regras de negócio - Repository → Acesso ao banco de dados - Database → Configuração e conexão - Reports → Armazenamento dos relatórios gerados </pre>
 Camadas:
 
 - Service → Regras de negócio
