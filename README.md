@@ -15,8 +15,23 @@ O fluxo da aplicação contempla:
 
 ## Estrutura
 
-<pre> ## Estrutura ``` src/ ├── database/ │ └── connection.js ├── repositories/ │ └── userRepository.js ├── services/ │ ├── randomUserService.js │ ├── userService.js │ └── reportService.js └── index.js reports/ └── report_*.json database.sqlite (criado ao executar) ``` ### Camadas - Service → Regras de negócio - Repository → Acesso ao banco de dados - Database → Configuração e conexão - Reports → Armazenamento dos relatórios gerados </pre>
-Camadas:
+```text
+src/
+├── database/
+│   └── connection.js
+├── repositories/
+│   └── userRepository.js
+├── services/
+│   ├── randomUserService.js
+│   ├── userService.js
+│   └── reportService.js
+└── index.js
+
+reports/
+└── report_*.json
+
+database.sqlite (criado ao executar)
+```
 
 - Service → Regras de negócio
 - Repository → Acesso ao banco de dados
